@@ -12,6 +12,7 @@ The Neural Collaborative Filtering (NCF) model is a deep learning-based recommen
 6. [Evaluation Metrics](#evaluation)
 7. [Results](#results)
 8. [Future Improvements](#improvements)
+9. [Model Performance](#model-performance)
 
 ## 1. Project Overview <a name="overview"></a>
 
@@ -149,7 +150,7 @@ Some potential areas for improvement in the recommendation system include:
 
 This project demonstrates the use of Neural Collaborative Filtering for building a recommendation system using binary customer-product interaction data. The model can be further improved through parameter tuning and hybrid approaches.
 
-## Model Performance
+## 9. Model Performance <a name="model-performance"></a>
 
 The recommendation model has been evaluated using several key performance metrics. Below is a detailed explanation of each metric and the model's performance:
 
