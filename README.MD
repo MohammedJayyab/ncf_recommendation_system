@@ -11,8 +11,8 @@ The Neural Collaborative Filtering (NCF) model is a deep learning-based recommen
 5. [Modeling and Predictions](#modeling)
 6. [Evaluation Metrics](#evaluation)
 7. [Results](#results)
-8. [Future Improvements](#improvements)
-9. [Model Performance](#model-performance)
+8. [Model Performance](#model-performance)
+9. [Future Improvements](#improvements)
 
 ## 1. Project Overview <a name="overview"></a>
 
@@ -137,20 +137,11 @@ The NCF model recommends products to customers based on their purchase history. 
 
 These recommendations are personalized based on learned interactions and product preferences.
 
-## 8. Future Improvements <a name="improvements"></a>
-
-Some potential areas for improvement in the recommendation system include:
-
-1. **Hyperparameter Tuning**: Experiment with different model architectures, learning rates, and embedding sizes to optimize performance.
-2. **Handling Implicit Feedback**: Incorporate implicit feedback techniques, such as weighting interactions based on frequency or recency.
-3. **Hybrid Models**: Combine collaborative filtering with content-based filtering to improve recommendations.
-4. **Cold Start Problem**: Address the cold start problem for new users or products by integrating additional information, such as product categories or user demographics.
-
 ---
 
 This project demonstrates the use of Neural Collaborative Filtering for building a recommendation system using binary customer-product interaction data. The model can be further improved through parameter tuning and hybrid approaches.
 
-## 9. Model Performance <a name="model-performance"></a>
+## 8. Model Performance <a name="model-performance"></a>
 
 The recommendation model has been evaluated using several key performance metrics. Below is a detailed explanation of each metric and the model's performance:
 
@@ -184,6 +175,15 @@ The recommendation model has been evaluated using several key performance metric
 - **Why RMSE matters**: RMSE is useful when you want to penalize large prediction errors more heavily than small ones.
 
 ---
+
+## 9. Future Improvements <a name="improvements"></a>
+
+Some potential areas for improvement in the recommendation system include:
+
+1. **Hyperparameter Tuning**: Experiment with different model architectures, learning rates, and embedding sizes to optimize performance.
+2. **Handling Implicit Feedback**: Incorporate implicit feedback techniques, such as weighting interactions based on frequency or recency.
+3. **Hybrid Models**: Combine collaborative filtering with content-based filtering to improve recommendations.
+4. **Cold Start Problem**: Address the cold start problem for new users or products by integrating additional information, such as product categories or user demographics.
 
 ### Summary
 
